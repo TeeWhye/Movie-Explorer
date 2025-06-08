@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Movie Insight</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Movie Insight</h1>
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Search for movies..." />
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+    <div id="movies-container" class="movies-grid"></div>
+  </main>
+
+  <!-- Movie Details Modal -->
+  <div id="movie-modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="modal-close" class="modal-close">&times;</span>
+      <h2 id="modal-title"></h2>
+      <p id="modal-overview"></p>
+      <p><strong>Release Date:</strong> <span id="modal-release-date"></span></p>
+      <p><strong>Rating:</strong> <span id="modal-rating"></span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
