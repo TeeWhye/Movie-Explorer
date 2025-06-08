@@ -1,5 +1,4 @@
-const API_KEY = 'YOUR_API_KEY_HERE';  
-fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`);
+const API_KEY = '3a15fc02c2980ec94efa8f623b6d7fdc';  
 const BASE_URL = 'https://api.themoviedb.org/3';
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
